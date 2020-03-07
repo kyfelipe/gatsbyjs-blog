@@ -20,6 +20,9 @@ const IndexPage = () => {
                 title
               }
               timeToRead
+              fields {
+                slug
+              }
             }
           }
         }
@@ -41,11 +44,14 @@ const IndexPage = () => {
             description,
             title
           },
-          timeToRead
+          timeToRead,
+          fields: {
+            slug
+          }
         }
       }) => (
         <PostItem
-          slug="/about/"
+          slug={slug}
           background={background}
           category={category}
           date={date}
