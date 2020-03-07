@@ -1,6 +1,6 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Avatar from "../Avatar"
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+import Avatar from '../Avatar'
 
 import * as S from './styled'
 
