@@ -75,7 +75,6 @@ export const MainContent = styled.section`
   img {
     display: block;
     max-width: 100%;
-    margin: 1.875rem auto;
   }
   
   iframe {
