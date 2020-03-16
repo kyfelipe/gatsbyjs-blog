@@ -4,6 +4,7 @@ const postsQuery = `{
       node {
         frontmatter {
           category
+          background
           date_timestamp: date
           date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
           description
@@ -13,6 +14,7 @@ const postsQuery = `{
           slug
         }
         objectID: id
+        timeToRead
         excerpt(pruneLength: 5000)
       }
     }
